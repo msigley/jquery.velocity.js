@@ -41,7 +41,4 @@ jQuery(document).ready(function($) {
 	
 	$('.limit-click-velocity').on('click', limitClickVelocity);
 	$('.limit-submit-velocity').on('submit', limitSubmitVelocity);
-	
-	//Limit clicks on product update download links
-	jQuery('.download-box a').on('click', limitClickVelocity);
 });
